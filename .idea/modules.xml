@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Modules.iml" filepath="$PROJECT_DIR$/.idea/Java-Modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program1/Program1.iml" filepath="$PROJECT_DIR$/Group1/Program1/Program1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program10/Program10.iml" filepath="$PROJECT_DIR$/Group1/Program10/Program10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program11/Program11.iml" filepath="$PROJECT_DIR$/Group1/Program11/Program11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group2/Program7/Program12.iml" filepath="$PROJECT_DIR$/Group2/Program7/Program12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group2/Program6/Program13.iml" filepath="$PROJECT_DIR$/Group2/Program6/Program13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group2/Program5/Program14.iml" filepath="$PROJECT_DIR$/Group2/Program5/Program14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group2/Program4/Program15.iml" filepath="$PROJECT_DIR$/Group2/Program4/Program15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group2/Program3/Program16.iml" filepath="$PROJECT_DIR$/Group2/Program3/Program16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group2/Program2/Program17.iml" filepath="$PROJECT_DIR$/Group2/Program2/Program17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group2/Program1/Program18.iml" filepath="$PROJECT_DIR$/Group2/Program1/Program18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program3/Program19.iml" filepath="$PROJECT_DIR$/Group3/Program3/Program19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program2/Program2.iml" filepath="$PROJECT_DIR$/Group1/Program2/Program2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program4/Program20.iml" filepath="$PROJECT_DIR$/Group3/Program4/Program20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program1/Program21.iml" filepath="$PROJECT_DIR$/Group3/Program1/Program21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program2/Program22.iml" filepath="$PROJECT_DIR$/Group3/Program2/Program22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program7/Program23.iml" filepath="$PROJECT_DIR$/Group3/Program7/Program23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program8/Program24.iml" filepath="$PROJECT_DIR$/Group3/Program8/Program24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program5/Program25.iml" filepath="$PROJECT_DIR$/Group3/Program5/Program25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program6/Program26.iml" filepath="$PROJECT_DIR$/Group3/Program6/Program26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group3/Program9/Program27.iml" filepath="$PROJECT_DIR$/Group3/Program9/Program27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program3/Program3.iml" filepath="$PROJECT_DIR$/Group1/Program3/Program3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program4/Program4.iml" filepath="$PROJECT_DIR$/Group1/Program4/Program4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program5/Program5.iml" filepath="$PROJECT_DIR$/Group1/Program5/Program5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program6/Program6.iml" filepath="$PROJECT_DIR$/Group1/Program6/Program6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program7/Program7.iml" filepath="$PROJECT_DIR$/Group1/Program7/Program7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program8/Program8.iml" filepath="$PROJECT_DIR$/Group1/Program8/Program8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group1/Program9/Program9.iml" filepath="$PROJECT_DIR$/Group1/Program9/Program9.iml" />
+    </modules>
+  </component>
+</project>
