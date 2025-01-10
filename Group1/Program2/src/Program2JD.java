@@ -11,6 +11,8 @@ public class Program2JD {
         
         ArrayList<Tenant> tenants = createTenantList(tenantCount);
         displayTenantDetails(tenants);
+
+        //Number of tenants
     }
 
     private static void displayTenantDetails(ArrayList<Tenant> tenants) {
