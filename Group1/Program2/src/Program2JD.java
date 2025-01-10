@@ -12,6 +12,7 @@ public class Program2JD {
         ArrayList<Tenant> tenants = createTenantList(tenantCount);
         displayTenantDetails(tenants);
 
+        //New Branch
         //Number of tenants
     }
 
