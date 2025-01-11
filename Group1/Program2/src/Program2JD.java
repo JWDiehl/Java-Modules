@@ -14,7 +14,19 @@ public class Program2JD {
     }
 
     private static void displayTenantDetails(ArrayList<Tenant> tenants) {
-        
+        if (tenants.isEmpty()) {
+            System.out.println("No tenants to display.");
+            return;
+        }
+
+        System.out.println("\nTenant Details:");
+        for (Tenant tenant : tenants) {
+            System.out.println("-----------------------------");
+            System.out.println("Full Name: " + tenant.fullName());
+            System.out.println("Apartment Number: " + tenant.getAptNumber());
+            System.out.println("First payment: " + tenant.firstPayment());
+            System.out.println("Monthly Payment for Next 11 Months: " + tenant.monthlyPayment());
+        }
     }
 
     private static ArrayList<Tenant> createTenantList(int tenantCount) {
