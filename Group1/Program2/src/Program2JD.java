@@ -31,6 +31,20 @@ public class Program2JD {
 
             System.out.println("FirstName: ");
             String firstName = input.nextLine();
+
+            System.out.println("LastName: ");
+            String lastName = input.nextLine();
+
+            System.out.println("Apartment Number: ");
+            String aptNumber = input.nextLine();
+
+            System.out.print("Yearly Rent: ");
+            int yearlyRent = input.nextInt();
+            input.nextLine();
+
+            tenants.add(new Tenant(firstName, lastName, aptNumber, yearlyRent));
         }
+
+        return tenants;
     }
 }
