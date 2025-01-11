@@ -11,9 +11,6 @@ public class Program2JD {
         
         ArrayList<Tenant> tenants = createTenantList(tenantCount);
         displayTenantDetails(tenants);
-
-        //New Branch
-        //Number of tenants
     }
 
     private static void displayTenantDetails(ArrayList<Tenant> tenants) {
@@ -21,5 +18,19 @@ public class Program2JD {
     }
 
     private static ArrayList<Tenant> createTenantList(int tenantCount) {
+        ArrayList<Tenant> tenants = new ArrayList<>();
+        Scanner input = new Scanner(System.in);
+
+        if (tenantCount <= 0) {
+            System.out.println("No tenants to add");
+            return tenants;
+        }
+
+        for (int i = 0; i < tenantCount; i++) {
+            System.out.println("\nEnter details for tenant " + (i + 1) + ":");
+
+            System.out.println("FirstName: ");
+            String firstName = input.nextLine();
+        }
     }
 }
