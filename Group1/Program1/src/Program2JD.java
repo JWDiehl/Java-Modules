@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Program2JD {
 
     public static void main(String[] args) {
@@ -20,6 +22,14 @@ public class Program2JD {
     private static void printSums(int[][] array, boolean b) {
     }
 
-    private static int[][] readArray(int i, int i1) {
+    private static int[][] readArray(int rows, int cols) {
+        Scanner input = new Scanner(System.in);
+        int[][] array = new int[rows][cols];
+        for (int i = 0; i <rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                array[i][j] = input.nextInt();
+            }
+        }
+        return array;
     }
 }
