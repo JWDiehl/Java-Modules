@@ -19,7 +19,15 @@ public class Program2JD {
         printSums(array, false);
     }
 
+    //this method calculates and prints the sum of rows or cols
     private static void printSums(int[][] array, boolean b) {
+        for (int i = 0; i < array.length; i++) {
+            int sum = 0;
+            for (int j = 0; j < array[i].length; j++) {
+                sum += b ? array[i][j] : array[j][i];
+            }
+            System.out.println(sum);
+        }
     }
 
     private static int[][] readArray(int rows, int cols) {
