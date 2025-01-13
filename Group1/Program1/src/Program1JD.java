@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Program2JD {
+public class Program1JD {
 
     public static void main(String[] args) {
         System.out.println("Enter five rows with five numbers in each row:");
