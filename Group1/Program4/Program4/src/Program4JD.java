@@ -13,7 +13,23 @@ public class Program4JD {
             order = Integer.parseInt(args[0]);
         } catch (NumberFormatException ex) {
             System.out.println("Invalid order: " + args[0]);
-            return
+            return;
+        }
+
+        //get file name containing words
+        String fileName = args[1];
+
+        //create and initialize puzzle
+        Puzzle puzzle = new Puzzle(order, fileName);
+        if (puzzle.createPuzzle()) {
+            //display the grid with ounly the placed words
+            puzzle.display();
+
+            //fill remaining spaces with random letters and display the complete grid
+            puzzle.fillRandom();
+            puzzle.display();
+        } else {
+            System.out.println("Unable to create the puzzle.");
         }
     }
 }
