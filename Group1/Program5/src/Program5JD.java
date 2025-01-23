@@ -16,5 +16,10 @@ public class Program5JD {
             this.wage = wage;
             this.salary = salary;
         }
+
+        //New method to create an employee object
+        public Employee factory(String name, String type, int hours, double wage, double salary) {
+            return new Employee(name, type, hours, wage, salary);
+        }
     }
 }
