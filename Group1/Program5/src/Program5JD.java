@@ -9,5 +9,12 @@ public class Program5JD {
         private double salary;
 
         //Constructor
+        public Employee(String name, String type, int hours, double wage, double salary) {
+            this.name = name;
+            this.type = type;
+            this.hours = hours;
+            this.wage = wage;
+            this.salary = salary;
+        }
     }
 }
