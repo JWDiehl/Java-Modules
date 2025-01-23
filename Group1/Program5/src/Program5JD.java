@@ -21,5 +21,23 @@ public class Program5JD {
         public Employee factory(String name, String type, int hours, double wage, double salary) {
             return new Employee(name, type, hours, wage, salary);
         }
+
+        //Getter methods
+        public String getName() {
+            return name;
+        }
+
+        public String getType() {
+            return type;
+        }
+
+        public int getHours() {
+            return hours;
+        }
+
+        //Method to calc total pay
+        public double totalPay() {
+            return (type.equalsIgnoreCase("hourly")) ? hours * wage : salary;
+        }
     }
 }
